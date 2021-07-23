@@ -29,7 +29,7 @@ If the plugin can't connect to the api you will see
 
 ## Setup and Configure
 
-<!--![Plugin Settings Screen](./images/preview-settings.png)-->
+![Plugin Settings Screen](./images/preview-settings.png)
 
 This plugin requires a [Personal Access Token](https://app.netlify.com/user/applications?_ga=2.170657952.1601832669.1626982353-514414476.1602856697#personal-access-tokens) for authentication, and your app id of the site you want in your menu bar.
 Enter these credentials in the plugin options.

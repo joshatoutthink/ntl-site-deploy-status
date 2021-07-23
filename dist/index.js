@@ -110,7 +110,7 @@ module.exports = {
 // <xbar.author>Josh Kennedy</xbar.author>
 // <xbar.author.github>joshatoutthink</xbar.author.github>
 // <xbar.desc>Shows the current deploy status of your netlify site.</xbar.desc>
-// <xbar.image>https://cloud.githubusercontent.com/assets/1476865/24201253/ce0d8c5e-0f0f-11e7-8e44-503654407850.png</xbar.image>
+// <xbar.image>https://raw.githubusercontent.com/joshatoutthink/ntl-site-deploy-status/main/images/ft-preview.png</xbar.image>
 // <xbar.dependencies>node</xbar.dependencies>
 // <xbar.var>string(API_TOKEN=""): Your Netlify Personal Access Token.</xbar.var>
 // <xbar.var>string(SITE_ID=""): Your Netlify App Id.</xbar.var>
