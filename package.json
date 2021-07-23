@@ -1,0 +1,19 @@
+{
+ "name": "ntl-deploy-xbar",
+ "version": "1.0.0",
+ "main": "index.js",
+ "license": "MIT",
+ "bin": {
+  "site-status": "./builds/001-ntl-site-status.1m.js"
+ },
+ "dependencies": {
+  "node-fetch": "^2.6.1",
+  "parcel": "^2.0.0-beta.2"
+ },
+ "scripts": {
+  "build": "bash ./scripts/deploy.sh",
+	"test-img":"serve ."
+ },
+ "devDependencies": {
+ }
+}
