@@ -18,6 +18,10 @@ If the site is Building you will see
 
 ![error preview](./images/preview-error.png)
 
+If the plugin can't connect to the api you will see 
+
+![offline preview](./images/preview-offline.png)
+
 ## Install
 
 1. First install [xbar](https://xbarapp.com/dl), if you haven't already.

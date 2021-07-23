@@ -54,7 +54,6 @@ const PER_PAGE = 1;
     .then((res) => res.json())
     .then((res) => res[0])
     .catch((e) => {
-      console.log("error", e);
       return { state: "offline" };
     });
   const statusIcon =

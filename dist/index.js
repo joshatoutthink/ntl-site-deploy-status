@@ -159,7 +159,6 @@ const PER_PAGE = 1;
     .then((res) => res.json())
     .then((res) => res[0])
     .catch((e) => {
-      console.log("error", e);
       return { state: "offline" };
     });
   const statusIcon =
@@ -181,8 +180,7 @@ function appTemplate(
   { state, name, admin_url, ssl_url, error_message },
   status_icon
 ) {
-  //  const top = ` ${state} | image=${status_icon}
-  const top = ` ${"error"} | image=${error}
+  const top = ` ${state} | image=${status_icon}
 	---
 	${name} | href=${ssl_url}
 	netlify dashboard | href=${admin_url}`;
